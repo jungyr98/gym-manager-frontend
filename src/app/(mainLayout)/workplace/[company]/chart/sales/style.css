@@ -1,0 +1,28 @@
+.year-chart-search-box {
+  display: flex;
+  align-items: center;
+}
+
+.year-chart-search-box-fisrt {
+  margin-bottom: 2px;
+}
+
+.year-chart-search-box .year-chart-color-span {
+  display: inline-block;
+  width: 30px;
+  height: 15px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.year-chart-search-box .year-chart-color-span-first {
+  background: #6271bf;
+}
+
+.year-chart-search-box .year-chart-color-span-second {
+  background: #a0c97f;
+}
+
+.extra-chart-box {
+  display: flex;
+}

@@ -1,0 +1,25 @@
+.calendarInsertBtn {
+  position: relative;
+  top: 44px;
+}
+
+.ant-picker-calendar-date-content li:hover {
+  background: white;
+  border-radius: 1px;
+}
+
+.events {
+  padding: 0;
+}
+
+.events .ant-badge-status {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.events .ant-badge-status-text {
+  margin: 0;
+}

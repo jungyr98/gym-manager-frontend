@@ -1,0 +1,52 @@
+{
+  "name": "gym-manager-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "@types/react": "18.2.13",
+    "@types/react-dom": "18.2.6",
+    "antd": "^5.14.1",
+    "cra-template-typescript": "1.2.0",
+    "echarts-for-react": "^3.0.2",
+    "next": "^14.1.0",
+    "next-auth": "^4.24.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loading-skeleton": "^3.5.0",
+    "react-router-dom": "^7.1.1",
+    "react-scripts": "5.0.1",
+    "recoil": "^0.7.7",
+    "typescript": "^4.0.0",
+    "web-vitals": "^2.1.4",
+    "zustand": "^5.0.3"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "openapi": "openapi-generator-cli generate -i http://localhost:1110/api-docs -g typescript-fetch -o src/types -c ./openapi.json"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

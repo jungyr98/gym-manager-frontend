@@ -1,0 +1,33 @@
+/* antd */
+.ant-btn-primary {
+  margin-left: 2px;
+}
+
+/* div for button area */
+.btn-area-detail {
+  display: flex;
+  justify-content: end;
+  margin: 10px 0;
+}
+
+.btn-area-list {
+  display: flex;
+  justify-content: end;
+  margin: 20px 0px 10px 0;
+}
+
+/* div for search area */
+.search-area {
+  display: flex;
+  flex-direction: column;
+  background: #fafafa;
+  padding: 10px 5px;
+  border-radius: 8px;
+  border: 1px solid #f4f4f4;
+}
+
+.search-area form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

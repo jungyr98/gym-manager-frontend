@@ -1,0 +1,7 @@
+.search-div-box {
+  display: flex;
+  flex-direction: column;
+  background: "#fafafa";
+  padding: 10px 5px;
+  border-radius: 8px;
+}
